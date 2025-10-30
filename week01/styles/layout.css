@@ -37,6 +37,10 @@ body {
   text-decoration: none;
 }
 
+.nav i:hover {
+  color: #aeacac;
+}
+
 .content {
   display: flex;
   height: 60vh;
