@@ -42,18 +42,17 @@ body {
 }
 
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
   height: 60vh;
 }
 
 .content-main {
   background-color: #484848;
-  width: 80%;
 }
 
 .content-aside {
   background-color: #aeacac;
-  width: 20%;
 }
 
 .footer {
